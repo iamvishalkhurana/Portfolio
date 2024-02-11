@@ -3,7 +3,7 @@ import React from "react";
 const Message = ({ user, message }) => {
   return (
     <div
-      className={`z-1 md:w-1/2 p-2 m-2  rounded-xl inline-block ${
+      className={`z-1 w-1/2 p-2 m-2  rounded-xl inline-block ${
         user === "" ? "float-right" : ""
       }`}
     >

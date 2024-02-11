@@ -79,7 +79,7 @@ const Conversation = ({ user }) => {
           </div>
           <ReactScrollToBottom
             id="chatLogs"
-            className="h-[450px] overflow-y-auto bg-gray-500/10 text-sm"
+            className="h-[450px] overflow-y-auto bg-gray-500/10 text-sm w-full"
           >
             {messages.map((item, index) => (
               <Message

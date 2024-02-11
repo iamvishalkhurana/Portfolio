@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import portfolio from "./portfolio.png";
+import haweli from "./haweli.png";
+import simsun from "./simsun.png";
+import link from "./link.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +24,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import arrow from "./arrow.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,11 +50,13 @@ export {
   close,
   css,
   docker,
+  arrow,
   figma,
   git,
   html,
   javascript,
   mongodb,
+  portfolio,
   nodejs,
   reactjs,
   redux,
@@ -64,7 +71,10 @@ export {
   jobit,
   tripguide,
   cpp,
+  link,
   python,
   gradup,
   socket,
+  haweli,
+  simsun,
 };

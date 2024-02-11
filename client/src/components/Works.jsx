@@ -7,7 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { link } from "../assets";
 const ProjectCard = ({
   index,
   name,
@@ -40,9 +40,9 @@ const ProjectCard = ({
               className="black-gradient rounded-full flex justify-center items-center cursor-pointer w-10 h-10"
             >
               <img
-                src={github}
+                src={link}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-1/2 h-1/2 object-contain bg-white rounded-xl"
               />
             </div>
           </div>
@@ -77,10 +77,10 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           {/* projects description */}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde culpa
-          earum suscipit reiciendis saepe est cumque vitae id distinctio fuga!
-          Similique praesentium in ex eius reiciendis voluptatibus quis corrupti
-          rerum.
+          Below are some of the projects I have developed to showcase my skills
+          in various technologies. Feel free to reach out to me for any
+          opportunities related to these technologies. I am open to new
+          challenges and opportunities
         </motion.p>
       </div>
 

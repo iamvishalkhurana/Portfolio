@@ -11,15 +11,11 @@ import {
   redux,
   tailwind,
   nodejs,
+  link,
   mongodb,
+  haweli,
+  simsun,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
@@ -27,6 +23,7 @@ import {
   python,
   gradup,
   socket,
+  portfolio,
 } from "../assets";
 
 const navLinks = [
@@ -124,7 +121,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js,TailwindCss and other related technologies.",
+      "Developing and maintaining web applications using React.js, Tailwind CSS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Worked with GradUp's parent company Teksila Pvt Limited to complete frontend projects.",
@@ -161,67 +158,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D-Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "You'll find a curated collection of my work of web development projects. I strive to create visually stunning and functionally robust solutions that leave a lasting impression.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "socket.io",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/iamvishalkhurana/Portfolio",
   },
   {
-    name: "Job IT",
+    name: "The Haweli Resorts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Worked as a Frontend developer to help team deploy user friendly and responsive frontend.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: haweli,
+    source_code_link: "https://www.thehaweliresorts.in/",
   },
   {
-    name: "Trip Guide",
+    name: "Simsun Electric",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed responsive Frontend using react and tailwind working for GradUp's parent company, Teksila Pvt Limited",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: simsun,
+    source_code_link: "https://www.simsunelectric.in/",
   },
 ];
 

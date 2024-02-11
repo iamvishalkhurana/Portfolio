@@ -41,10 +41,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, amet
-        cupiditate? Quasi facilis iste repellat, unde veritatis illo assumenda.
-        Laudantium incidunt magnam accusantium fugit molestiae, cum ratione
-        perspiciatis facilis eos?
+        I'm Vishal Khurana, a Computer Engineering undergraduate student at the
+        National Institute of Technology, Kurukshetra. Currently, I am interning
+        as a front-end developer at GradUp. I have been building websites using
+        React.js and Tailwind CSS for the past year. I excel in crafting
+        responsive front-ends and enhancing user experience with animations
+        using Framer Motion. Alongside my front-end skills, I have a strong
+        foundation in Data Structures and Algorithms, and I thrive on solving
+        complex problems.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

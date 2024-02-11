@@ -6,7 +6,7 @@ import Message from "./Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 
 import socketIo from "socket.io-client";
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "https://portfolio-oemh.onrender.com";
 
 let socket;
 const Conversation = ({ user }) => {
@@ -46,7 +46,7 @@ const Conversation = ({ user }) => {
       console.log(data.user, data.message);
     });
     return () => {
-      socket.emit("disconnect");
+      socket.disconnect();
       socket.off();
     };
   }, []);
@@ -70,16 +70,16 @@ const Conversation = ({ user }) => {
         >
           <div
             id="chatHeader"
-            className="border-b  h-[75px] flex justify-between items-center px-2"
+            className="border-b  h-[75px] flex justify-between items-center px-2 text-sm gap-5"
           >
             <p>Conversation with Vishal</p>
             <div className="flex flex-col items-center">
-              <p className=" break-words">Your Username: {user}</p>
+              <p className="">Your Username: {user}</p>
             </div>
           </div>
           <ReactScrollToBottom
             id="chatLogs"
-            className="h-[450px] overflow-y-auto bg-gray-500/10"
+            className="h-[450px] overflow-y-auto bg-gray-500/10 text-sm"
           >
             {messages.map((item, index) => (
               <Message
@@ -92,7 +92,7 @@ const Conversation = ({ user }) => {
           </ReactScrollToBottom>
           <div
             id="chatInput"
-            className="border-t h-[75px] flex items-center gap-5 justify-center"
+            className="border-t h-[75px] flex items-center gap-5 justify-center text-sm"
           >
             <input
               type="text"

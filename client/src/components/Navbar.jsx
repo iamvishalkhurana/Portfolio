@@ -91,9 +91,14 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  {window.location.pathname === "/" ? (
+                    <a href={`#${link.id}`}>{link.title}</a>
+                  ) : (
+                    <Link to="/">{link.title}</Link>
+                  )}
                 </li>
               ))}
+              <Link to="/chat">Chat</Link>
             </ul>
           </div>
         </div>

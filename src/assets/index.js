@@ -25,6 +25,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import arrow from "./arrow.svg";
+import gmail from "./gmail.svg";
+import linkedin from "./linkedin.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,6 +57,8 @@ export {
   git,
   html,
   javascript,
+  gmail,
+  linkedin,
   mongodb,
   portfolio,
   nodejs,

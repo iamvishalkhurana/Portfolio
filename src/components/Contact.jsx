@@ -8,6 +8,9 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../style";
 import { arrow } from "../assets";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { linkedin, gmail, github } from "../assets";
 
 const Contact = () => {
   const FormRef = useRef();
@@ -114,6 +117,20 @@ const Contact = () => {
         >
           <EarthCanvas />
         </motion.div>
+      </div>
+      <div className=" flex gap-10 mt-10 items-center w-1/4 justify-center">
+        <a
+          href="https://www.linkedin.com/in/vishal-khurana-867632223/"
+          target="_blank"
+        >
+          <img src={linkedin} alt="" className="w-20" />
+        </a>
+        <a href="https://github.com/iamvishalkhurana" target="_blank">
+          <img src={github} alt="" className="w-20" />
+        </a>
+        <a href="mailto:khuranavishal000@gmail.com" target="_blank">
+          <img src={gmail} alt="" className="w-16" />
+        </a>
       </div>
       <div className=" flex justify-end items-center w-full mr-10">
         <div className="mt-5 w-fit border-2 border-white bg-black/60 flex items-center p-2">
